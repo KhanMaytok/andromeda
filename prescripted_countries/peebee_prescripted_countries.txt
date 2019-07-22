@@ -1,5 +1,5 @@
 ## Asari Republics
-maweer = {
+maweer_peebee = {
 	name = "maweer"
 	ship_prefix = "PRESCRIPTED_ship_prefix_maweer"
 	spawn_enabled = always
@@ -31,10 +31,12 @@ maweer = {
 	government="gov_irenic_dictatorship"
 
 	adjective = "PRESCRIPTED_adjective_maweer"
-	planet_name = "PRESCRIPTED_planet_name_maweer"
-	planet_class = "pc_tropical"
-	system_name = "PRESCRIPTED_system_name_maweer"
+
+	planet_name = "Thessia"
+	planet_class = "pc_continental"
 	initializer= "mec_asr_system_initializer"
+	system_name = "Parnitha"
+
 	graphical_culture = "plantoid_01"
 	city_graphical_culture = "plantoid_01"
 
