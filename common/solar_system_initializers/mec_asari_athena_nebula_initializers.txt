@@ -294,7 +294,22 @@ mec_asr_system_initializer = {
 							influence = 500
 						}
 					}
-					flag = random
+					flag = {
+						icon={
+							category = "mec_asari_civ"
+							file = "mec_asari_thessia_flag.dds"
+						}
+						background = {
+							category = "backgrounds"
+							file = "00_solid.dds"
+						}
+						colors = {
+							"indigo"
+							"indigo"
+							"null"
+							"null"
+						}
+					}
 				}
 				set_owner = event_target:laverna_republic
 				generate_starting_pops = { pops_species_1 = 1 }
