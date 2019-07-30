@@ -2,7 +2,7 @@
 xanid = {
 	name = "xanid"
 	adjective = "PRESCRIPTED_adjective_xanid"
-	spawn_enabled = yes # yes / no / always
+	spawn_enabled = always # yes / no / always
 	
 	playable = has_utopia # scripted_triggers
 	
@@ -83,7 +83,7 @@ xanid = {
 lokken = {
 	name = "lokken"
 	adjective = "PRESCRIPTED_adjective_lokken"
-	
+	spawn_enabled = always
 	ship_prefix = "PRESCRIPTED_ship_prefix_lokken"
 	
 	playable = has_utopia # scripted_triggers
@@ -150,7 +150,7 @@ lokken = {
 ixidar = {
 	name = "ixidar"
 	adjective = "PRESCRIPTED_adjective_ixidar"
-	spawn_enabled = yes # yes / no / always
+	spawn_enabled = always # yes / no / always
 	
 	playable = has_utopia # scripted_triggers
 	

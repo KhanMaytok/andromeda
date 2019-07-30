@@ -20,6 +20,34 @@ country_event = {
 		give_technology = { tech = tech_basic_science_lab_3 message = no }
 		give_technology = { tech = tech_physics_3 message = no }
 		give_technology = { tech = tech_automated_exploration message = no }
-		
+		give_technology = { tech =  tech_mine_volatile_motes message = no }
+		give_technology = { tech =  tech_volatile_motes message = no }
+		give_technology = { tech =  tech_food_processing_2 message = no }
+		give_technology = { tech =  tech_nutrient_replication message = no }
+		give_technology = { tech =  tech_repeatable_improved_tile_food_output message = no }
+		give_technology = { tech =  tech_society_3 message = no }
+		give_technology = { tech =  tech_global_defense_grid message = no }
+		give_technology = { tech =  tech_repeatable_command_limit message = no }
+		give_technology = { tech =  tech_repeatable_improved_army_damage message = no }
+		give_technology = { tech =  tech_repeatable_naval_cap message = no }
+		give_technology = { tech =  tech_command_matrix message = no }
+
+		give_technology = { tech =  tech_repeatable_command_limit message = no }
+		give_technology = { tech =  tech_repeatable_improved_army_damage message = no }
+		give_technology = { tech =  tech_repeatable_naval_cap message = no }
+		give_technology = { tech =  tech_command_matrix message = no }
+		give_technology = { tech =  tech_repeatable_command_limit message = no }
+		give_technology = { tech =  tech_repeatable_improved_army_damage message = no }
+		give_technology = { tech =  tech_repeatable_naval_cap message = no }
+		give_technology = { tech =  tech_command_matrix message = no }
+		give_technology = { tech =  tech_repeatable_command_limit message = no }
+		give_technology = { tech =  tech_repeatable_improved_army_damage message = no }
+		give_technology = { tech =  tech_repeatable_naval_cap message = no }
+		give_technology = { tech =  tech_command_matrix message = no }
+		give_technology = { tech =  tech_repeatable_command_limit message = no }
+		give_technology = { tech =  tech_repeatable_improved_army_damage message = no }
+		give_technology = { tech =  tech_repeatable_naval_cap message = no }
+		give_technology = { tech =  tech_command_matrix message = no }
+
 	}
 }
