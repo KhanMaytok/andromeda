@@ -449,7 +449,9 @@ mec_asr_neighbour_02 = {
 		init_effect = {
 			prevent_anomaly = yes
 			add_deposit = d_mec_asari_niacal_jungles
-			add_anomaly = MEC_ASARI_ANO_NIACAL_01_CAT
+			add_anomaly = {
+				category = MEC_ASARI_ANO_NIACAL_01_CAT
+			}
 		}
 	}
 
@@ -465,7 +467,9 @@ mec_asr_neighbour_02 = {
 		init_effect = {
 			prevent_anomaly = yes
 			clear_deposits = yes
-			add_anomaly = MEC_ASARI_ANO_KRALLA_01_CAT
+			add_anomaly = {
+				category = MEC_ASARI_ANO_KRALLA_01_CAT
+			}
 		}
 	}
 
@@ -658,7 +662,9 @@ mec_asr_neighbour_04 = {
 		init_effect = {
 			prevent_anomaly = yes
 			clear_deposits = yes
-			add_anomaly = MEC_ASARI_ANO_TRITOGENITH_01_CAT
+			add_anomaly = {
+				category = MEC_ASARI_ANO_TRITOGENITH_01_CAT
+			}
 		}
 
 		moon = {
