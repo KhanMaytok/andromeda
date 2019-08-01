@@ -92,6 +92,28 @@ mec_asr_system_initializer = {
 				}
 				save_global_event_target_as = mec_asari_planet_thessia
 			}
+			create_species = {
+					name = "Laverna"
+					class = "ASA"
+					portrait = "asari"
+					homeworld = THIS
+					traits = {
+						trait = "mec_trait_asari_age"
+						trait = "mec_trait_asari_gynogenetic"
+						trait = "mec_trait_asari_biotic"
+						trait = "mec_trait_asari_sophisticated"
+						trait = "trait_latent_psionic"
+					}
+			}
+			while = {
+				limit = {
+					count_pops = {
+						limit = { is_sapient = yes }
+						count < 28
+					}
+				}
+				create_pop = { species = last_created }
+			}
 		}
 	}
 
@@ -240,72 +262,6 @@ mec_asr_system_initializer = {
 				clear_deposits = yes
 				set_deposit = d_minerals_3
 				set_planet_flag = starting_deposit
-			}
-		}
-
-		moon = {
-			name = "Laverna"
-			class = "pc_ocean"
-			orbit_distance = 15
-			orbit_angle = 170
-			size = 20
-			has_ring = yes
-			climate = wet
-
-			init_effect = {
-				prevent_anomaly = yes			
-				create_species = {
-					name = "Laverna"
-					class = "ASA"
-					portrait = "asari"
-					homeworld = THIS
-					traits = {
-						trait = "mec_trait_asari_age"
-						trait = "mec_trait_asari_gynogenetic"
-						trait = "mec_trait_asari_biotic"
-						trait = "mec_trait_asari_sophisticated"
-						trait = "trait_latent_psionic"
-					}
-				}
-				last_created_species = { save_global_event_target_as = laverna_species }
-				create_country = {
-					name = "NAME_Laverna_Republic"
-					ignore_initial_colony_error = yes
-					civics = {
-						civic = mec_civic_asari_thessia
-					}
-					authority = auth_democratic
-					species = event_target:laverna_species
-					ethos = {
-						ethic = "ethic_egalitarian"
-						ethic = "ethic_xenophile"
-						ethic = "ethic_spiritualist"
-					}
-					type = primitive
-					effect = {
-						set_graphical_culture = preindustrial_01
-						set_country_flag = stone_age 
-						set_primitive_age = stone_age
-						save_global_event_target_as = laverna_republic
-						add_resource = {
-							minerals = 10000
-							energy = 10000	
-							food = 1000
-							influence = 500
-						}
-					}
-					flag = random
-				}
-				set_owner = event_target:laverna_republic
-				generate_starting_pops = { pops_species_1 = 1 }
-				add_building = building_primitive_capital
-				save_global_event_target_as = laverna_planet
-
-				clear_deposits = yes
-				set_deposit = d_minerals_2
-				set_deposit = d_zro_deposit_3
-				set_planet_flag = starting_deposit
-				set_planet_flag = starting_mining_target
 			}
 		}
 	}
