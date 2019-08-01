@@ -1,0 +1,72 @@
+## Asari Republics
+mec_asarirepublics_civ = {
+	name = "Asari Republics"
+	adjective = "Asari"
+	spawn_enabled = always # yes / no / always
+	#ignore_portrait_duplication = yes
+	
+	ship_prefix = ""
+	
+	species = {
+		class = "ASA"
+		portrait = "asari"
+		name = "Asari"
+		plural = "Asari"
+		adjective = "Asari"
+		name_list = "mec_asari_names"
+		trait = "mec_trait_asari_age"
+		trait = "mec_trait_asari_biotic"
+		trait = "trait_charismatic"
+		trait = "mec_trait_asari_gynogenetic"
+		trait = "mec_trait_asari_sophisticated"
+	}
+	
+	advisor_voice_type = "l_xenophile"
+	
+	room = "personality_metalheads_room"
+	
+	authority = "auth_democratic"
+	civics = { "mec_civic_asari_thessia" "civic_parliamentary_system" }
+	government = gov_direct_democracy
+	
+	ethic = "ethic_fanatic_xenophile"
+	ethic = "ethic_egalitarian"
+	
+	flags = { mec_asari_asr custom_start_screen }
+	
+	planet_name = "Thessia"
+	planet_class = "pc_continental"
+	initializer= "mec_asr_system_initializer"
+	system_name = "Parnitha"
+	
+	graphical_culture = "asari_01"
+	city_graphical_culture = "asari_01"
+	
+	empire_flag = {
+		icon={
+			category = "mec_asari_civ"
+			file = "mec_asari_thessia_flag.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"indigo"
+			"indigo"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler={
+		name = "Sairae B'Sala" #"Tevos"
+		gender = female
+		portrait = "asari_3"
+		texture = 7
+		hair = 0
+		clothes = 5
+		ruler_title = "Councilor"
+		ruler_title_female = "Councilor"
+	}
+}
