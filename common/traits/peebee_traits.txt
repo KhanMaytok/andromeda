@@ -8,7 +8,6 @@ peebee_trait_amazing_scientist = {
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_spark_of_genius.dds"
 	modifier = {
 		all_technology_research_speed = 500.00
-		num_tech_alternatives_add = 10
 	}
 
 	custom_tooltip = MEC_TRAIT_ASARI_AGE_EFFECT

@@ -1,0 +1,20 @@
+namespace = peebee
+
+event = {
+	id = peebee.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		every_country = {
+			limit = { is_ai = no }
+			every_owned_leader = {
+				limit = {
+					leader_class = scientist
+				}
+				add_trait = peebee_trait_amazing_scientist
+			}
+		}
+
+	}
+}

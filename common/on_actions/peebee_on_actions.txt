@@ -1,0 +1,6 @@
+# Triggers when the game starts
+on_game_start = {
+	events = {
+		peebee.1 # give tech boost
+	}
+}
